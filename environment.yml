@@ -1,12 +1,12 @@
 name: example-envronment
 channels:
- - defaults
+ - conda-forge
 dependencies:
  - conda
  - numpy
  - matplotlib
  - cartopy
- - scikit-learn
+ - scikit-learn==0.22.2
  - seaborn
  - scipy
  
