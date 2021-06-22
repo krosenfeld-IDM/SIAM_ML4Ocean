@@ -1,4 +1,6 @@
 name: example-envronment
+channels:
+ - default
 dependencies:
  - conda
  - numpy
